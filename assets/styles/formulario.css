@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --azul: rgba(148,187,233,0.4);
+    --azul-escuro:rgba(148,187,233,1);
+}
+
+body{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.adicionar{
+    background: #FAF8ED;
+    border-radius: 24px;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20%;
+    padding: 5px;
+    width: 30%;
+    height: 12rem;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+}
+
+input{
+    background-color: var(--azul);
+    border: 0 none;
+    padding: 4px;
+    width: 200px;
+}
+
+button{
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--azul);
+    border: none;
+    padding: 7px;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+button:hover{
+    background-color: var(--azul-escuro);
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+div{
+    padding: 3px;
+}

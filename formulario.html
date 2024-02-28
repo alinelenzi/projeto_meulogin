@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./assets/styles/formulario.css">
+</head>
+<body>
+    <form action="" class="adicionar" id="novoCadastro">
+        <div>
+            <div>
+                <label for="name">Nome:</label>
+                <input id="name" name="name" type="text" required>
+            </div>
+            <div>
+                <label for="telefone">Telefone:</label>
+                <input id="telefone" name="telefone" type="tel" maxlength="11">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email">
+            </div>
+            <button type="submit" value="Adicionar" class="cadastrar" onclick="alert('Salvo com sucesso!')">Salvar</button>
+        </div>
+        <ul class="lista" id="lista"></ul>
+    </form>
+</body>
+</html>

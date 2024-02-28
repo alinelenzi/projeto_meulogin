@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Online</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <form class="login">
+        <div>
+            <img class="login-imagem" src="./assets/img/user-regular.svg">
+            <div>                
+                <label for="userName"><i class="fa-regular fa-user"></i></label>
+                <input type="text" name="userName" id="userName" required>
+            </div>
+            <div>
+                <label for="password"><i class="fa-solid fa-lock"></i></label>
+                <input type="password" name="password" id="password" required>
+            </div>
+                <button type="button" onclick="validateLogin()">Login</button>
+        </div>
+    </form>
+    <script src="./assets/js/login.js"></script>
+</body>
+</html>
